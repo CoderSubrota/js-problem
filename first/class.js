@@ -11,7 +11,7 @@ class newClass {
 
 class inheritClass extends newClass{
       constructor(name,age,gender,city,education,experience){
-        super(name,age,gender,city);
+        super(name,age,gender);
         this.city=city;
         this.education=education;
         this.experience=experience;
@@ -35,10 +35,11 @@ class inheritClass extends newClass{
 let callInheritClass = new inheritClass('subrota','24','male','joypurhat','HSC','4 years');
 
 
-console.log(callInheritClass.name,callInheritClass.age,callInheritClass.city,
+    console.log(callInheritClass.name,callInheritClass.age,callInheritClass.city,
     callInheritClass.gender,callInheritClass.city,
     callInheritClass.education ,callInheritClass.experience,"\n", 
-"calculate math for remaining number =>",callInheritClass.calculateMath(20,4,5,6));
+   "calculate math for remaining number =>",callInheritClass.calculateMath(20,4,5,6));
 
 
 
+//constructor //this //super //extends // new 
